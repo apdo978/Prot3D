@@ -6,15 +6,15 @@
 })();
    let swiper = new Swiper('.swiper-container', {
         effect: 'cube', 
-        allowTouchMove: true,
-        grabCursor: true,
+        allowTouchMove: false,
+        grabCursor: flase,
         cubeEffect: {
             shadow: false,
             slideShadows: true,
             shadowOffset: 20,
             shadowScale: 0.94,
         },
-        mousewheel: true,
+        mousewheel: false,
      
     });
         function Navigate(index){
