@@ -7,7 +7,7 @@
    let swiper = new Swiper('.swiper-container', {
         effect: 'cube', 
         allowTouchMove: false,
-        grabCursor: flase,
+        grabCursor: false,
         cubeEffect: {
             shadow: false,
             slideShadows: true,
