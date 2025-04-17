@@ -226,5 +226,22 @@ asidebutt.addEventListener("click", ()=>{
     preseed = true
 })
 
+// hire Me butons Updates 
+const buttons = document.querySelectorAll("button")
 
-
+for (let button of buttons){
+    if ( button.innerText == "Contact Me"){
+        button.addEventListener("click", ()=>{
+            Navigate(4)
+        })
+    }
+    else if (button.innerText == "Hire Me"){
+        button.addEventListener("click", () => {
+            Navigate(4)
+            window.open("mailto:talktoboda01@gmail.com","_blank")
+            window.location.href ="https://wa.me/0201271175532"
+ 
+        })
+        
+    }
+}
